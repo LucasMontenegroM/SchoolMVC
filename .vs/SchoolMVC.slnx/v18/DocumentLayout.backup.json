@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D184C97D-2577-4A88-AF84-9715FA435C16}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D184C97D-2577-4A88-AF84-9715FA435C16}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|solutionrelative:src\\schoolmvc.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65588468-645C-4FA9-A3AB-B2C4BC39AF10}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65588468-645C-4FA9-A3AB-B2C4BC39AF10}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|solutionrelative:src\\schoolmvc.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34C9392-BDA5-4B58-8E58-647FD7633467}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34C9392-BDA5-4B58-8E58-647FD7633467}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696BCEE-7698-4311-BFA8-A93469363D99}|Solution Items{3696BCEE-7698-4311-BFA8-A93469363D99}|C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3696BCEE-7698-4311-BFA8-A93469363D99}|Solution Items{3696BCEE-7698-4311-BFA8-A93469363D99}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Data\\Class1.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:07:15.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Domain\\Class1.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:06:50.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Class1.cs",
+              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Class1.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Business\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T14:06:19.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0oAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-05T14:02:26.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

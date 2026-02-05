@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Project Path="src/SchoolMVC.Business/SchoolMVC.Business.csproj" />
+  <Project Path="src/SchoolMVC.Data/SchoolMVC.Data.csproj" />
+  <Project Path="src/SchoolMVC.Domain/SchoolMVC.Domain.csproj" />
+  <Project Path="src/SchoolMVC.Web/SchoolMVC.Web.csproj" />
+</Solution>
