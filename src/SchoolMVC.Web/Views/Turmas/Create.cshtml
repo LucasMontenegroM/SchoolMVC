@@ -1,0 +1,47 @@
+﻿﻿﻿@using SchoolMVC.Business.Models
+@model TurmasModel
+
+
+@{
+    ViewData["Title"] = "Adicionar Usuário";
+}
+
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center ">
+
+        <h1 class="text-light">Cadastro de Perfil</h1>
+
+    </div>
+
+    <form method="post" asp-controller="Turmas" asp-action="Create">
+       <!--Serie--></>
+
+        <div class="mb-3">
+            <label for="Serie" class="form-label text-light">Serie da Turma:</label>
+            <select name="Serie" id="car-select">
+                <option value="">--Selecione uma Opção--</option>
+                <option value="1">Primeira</option>
+                <option value="2">Segunda</option>
+                <option value="3">Terceira</option>
+            </select>
+
+        </div>
+
+        <!--BOTÃO-->
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn btn-success w-50">Adicionar <i class="bi bi-pen mx-2"></i> </button>
+            <a class="btn btn-primary w-50" asp-controller="Users" asp-action="Index">Voltar <i class="bi bi-arrow-return-left" mx-2></i></a>
+
+        </div>
+
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

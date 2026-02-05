@@ -1,7 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolMVC.Business.Interfaces;
+using SchoolMVC.Business.Services;
+using SchoolMVC.Data.Context;
+using SchoolMVC.Data.Interfaces;
+using SchoolMVC.Data.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddScoped<ITurmasService, TurmasService>();
+
+builder.Services.AddScoped<ITurmaRepository, TurmaRepository>();
+
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<SchoolContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
 
 var app = builder.Build();
 
