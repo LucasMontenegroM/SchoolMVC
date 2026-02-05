@@ -1,0 +1,16 @@
+
+create table Turmas(
+Id int not null identity(1,1) primary key,
+Media decimal (4,2) default 0 not null
+)
+
+create table Alunos(
+Id int identity(1,1) primary key not null,
+Turma_Id int not null,
+Nome varchar(255) not null,
+media decimal(4,2) not null
+Genero tinyint not null,
+constraint FK_Alunos_Turmas
+Foreign key (Turma_Id) references Turmas(Id)
+)
+
