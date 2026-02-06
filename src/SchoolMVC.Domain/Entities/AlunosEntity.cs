@@ -16,6 +16,11 @@ public class AlunosEntity
 
     public GeneroEnum Genero { get; protected set; }
 
+    public AlunosEntity()
+    {
+        
+    }
+
     public AlunosEntity(int turma, string nome, DateOnly data, decimal media, GeneroEnum genero)
     {
         Turma_Id = turma;

@@ -4,3 +4,30 @@
 <div>
     <a class="btn btn-success"asp-controller="Turmas" asp-action="Create">Criar nova Turma</a>
 </div>
+
+@if (Model == null)
+{
+    <h5>Nenhuma turma foi encontrada</h5>
+}
+<table class="table table-light table-hover">
+          
+<thead class="table-info">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Série-Turma</th>
+        <th scope="col">Média</th>
+    </tr>
+</thead>
+
+<tbody>
+@foreach (var turma in Model)
+{
+    <tr>
+        <td>@turma.Id</td>
+        <td>@turma.Serie-@turma.Id</td>
+        <td>@turma.Media</td>
+    </tr>
+}
+</tbody>
+</table>
+

@@ -8,26 +8,38 @@ public class TurmasEntity
 
     public decimal Media { get; protected set; }
 
+    public TurmasEntity()
+    {
+        
+    }
+
     public TurmasEntity(char serie)
     {
         Serie = serie;
+
         Media = 0;
     }
 
-    private decimal CalculaMedia(List<AlunosEntity> alunos)
+    public void UpdateSerie(char serie)
+    {
+        Serie = serie;
+    }
+
+    public decimal CalculaMedia(List<AlunosEntity> alunos)
     {
 
         decimal notaTotal = 0;
 
-        var quantidadeDeAlunos = 0;
+        var quantidadeDeAlunosSomados = 0;
 
-        foreach (var aluno in alunos)
-        {
-            notaTotal += aluno.Media;
-            quantidadeDeAlunos++;
-        }
+           foreach (var aluno in alunos)
+           {
+              notaTotal += aluno.Media;
 
-        return notaTotal / quantidadeDeAlunos;
+              quantidadeDeAlunosSomados++;
+           }
+        
+        return notaTotal / quantidadeDeAlunosSomados;
     }
 
 }

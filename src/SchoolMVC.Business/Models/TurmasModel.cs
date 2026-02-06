@@ -13,4 +13,20 @@ public class TurmasModel
 
     public decimal Media { get; set; }
 
+    public TurmasModel Map(TurmasEntity entity)
+    {
+        if (entity == null)
+        {
+            return null;
+        }
+
+        return new TurmasModel()
+        {
+            Id = entity.Id,
+
+            Media = entity.Media,
+
+            Serie = entity.Serie
+        };
+    }
 }

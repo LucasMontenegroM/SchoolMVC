@@ -14,9 +14,11 @@ public class TurmasController : Controller
         _turmasService = turmasService;
     }
 
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+        var turmas  = await _turmasService.ListAll();
+
+        return View(turmas);
     }
 
     [HttpGet]
@@ -35,6 +37,26 @@ public class TurmasController : Controller
         //if statement
 
         return RedirectToAction("Index");
+    }
+
+    [HttpGet]
+
+    public async Task<IActionResult> Update(int id)
+    {
+        var turma = _turmasService.GetById(id);
+
+        return View(turma); 
+    }
+
+    public async Task<IActionResult> Update(TurmasModel turma)
+    {
+       var ableToUpdate = await _turmasService.Update(turma);
+
+        if (ableToUpdate)
+        {
+            return RedirectToAction("Index");
+        }
+        return View(turma);
     }
 
 }
