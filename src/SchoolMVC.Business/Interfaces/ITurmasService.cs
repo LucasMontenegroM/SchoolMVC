@@ -12,4 +12,6 @@ public interface ITurmasService
     public Task<TurmasModel> GetById(int id);
 
     public Task<bool> Update(TurmasModel turmaModel);
+
+    public Task<bool> Delete(TurmasModel turmaModel);
 }

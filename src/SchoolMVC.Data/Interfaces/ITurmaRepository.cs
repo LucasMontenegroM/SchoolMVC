@@ -9,5 +9,8 @@ public interface ITurmaRepository
     public Task<List<TurmasEntity>> ListAll();
 
     public Task<TurmasEntity> GetById(int id);
+
+    public void Delete(TurmasEntity turmaEntity)
+
     public Task Commit();
 }

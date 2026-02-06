@@ -10,6 +10,7 @@ public class TurmaRepository : ITurmaRepository
 {
 
     private readonly SchoolContext _db;
+
     public TurmaRepository(SchoolContext db)
     {
         _db = db;
@@ -33,5 +34,10 @@ public class TurmaRepository : ITurmaRepository
     public async Task<TurmasEntity> GetById(int id)
     {
         return await _db.Turmas.FirstOrDefaultAsync(t => t.Id == id);
+    }
+
+    public void Delete(TurmasEntity turmaEntity)
+    {
+        _db.Turmas.Remove(turmaEntity);
     }
 }

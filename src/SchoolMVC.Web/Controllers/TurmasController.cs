@@ -16,7 +16,7 @@ public class TurmasController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var turmas  = await _turmasService.ListAll();
+        var turmas = await _turmasService.ListAll();
 
         return View(turmas);
     }
@@ -32,11 +32,15 @@ public class TurmasController : Controller
 
     public async Task<IActionResult> Create(TurmasModel turma)
     {
-        var created = await _turmasService.Create(turma);
+        var AbleTocreate = await _turmasService.Create(turma);
 
-        //if statement
+        if (AbleTocreate)
+        {
+            return RedirectToAction("Index");
+        }
 
-        return RedirectToAction("Index");
+        return View();
+
     }
 
     [HttpGet]
@@ -45,9 +49,16 @@ public class TurmasController : Controller
     {
         var turma = _turmasService.GetById(id);
 
-        return View(turma); 
+        if (turma != null)
+        {
+            return View(turma);
+        }
+
+        return NotFound();
+
     }
 
+    [HttpPost]
     public async Task<IActionResult> Update(TurmasModel turma)
     {
        var ableToUpdate = await _turmasService.Update(turma);
@@ -56,7 +67,34 @@ public class TurmasController : Controller
         {
             return RedirectToAction("Index");
         }
+
         return View(turma);
     }
 
+    [HttpGet]
+
+    public async Task<IActionResult> Delete(int id)
+    {
+        var turmaModel = await _turmasService.GetById(id);
+
+        if (turmaModel != null)
+        {
+            return View(turmaModel);
+        }
+
+        return NotFound();
+    }
+
+    [HttpPost]
+
+    public async Task<IActionResult> Delete(TurmasModel turmaModel)
+    {
+        var AbleToDelete = await _turmasService.Delete(turmaModel);
+
+        if (AbleToDelete)
+        {
+            return RedirectToAction("Index");
+        }
+        return View(turmaModel);
+    }
 }

@@ -49,11 +49,16 @@ public class TurmasService : ITurmasService
     {
         var turmaEntity = await _turmaRepository.GetById(id);
 
-        var turmaModel = new TurmasModel();
+        if (turmaEntity != null)
+        {
+            var turmaModel = new TurmasModel();
 
-        turmaModel.Map(turmaEntity);
+            turmaModel.Map(turmaEntity);
 
-        return turmaModel;
+            return turmaModel;
+        }
+
+        return null;
     }
 
     public async Task<bool> Update(TurmasModel turmaModel)
@@ -76,4 +81,27 @@ public class TurmasService : ITurmasService
 
         return false;
     }
+
+    public async Task<bool> Delete(TurmasModel turmaModel)
+    {
+        if(turmaModel != null)
+        {
+        var turmaEntity = await _turmaRepository.GetById(turmaModel.Id);
+
+            if (turmaEntity != null)
+            {
+                _turmaRepository.Delete(turmaEntity);
+
+                await _turmaRepository.Commit();
+
+                return true;
+            }
+
+            return false;
+        }
+
+        
+        return false;
+    }
+
 }
