@@ -1,5 +1,4 @@
 ﻿using SchoolMVC.Business.Models;
-using SchoolMVC.Domain.Entities;
 
 namespace SchoolMVC.Business.Interfaces;
 

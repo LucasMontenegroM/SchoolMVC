@@ -6,7 +6,7 @@ public class AlunosEntity
 {
     public int Id { get; private set; }
 
-    public int Turma_Id { get; protected set; }
+    public int TurmaId { get; protected set; }
 
     public string Nome {  get; protected set; }
 
@@ -23,7 +23,7 @@ public class AlunosEntity
 
     public AlunosEntity(int turma, string nome, DateOnly data, decimal media, GeneroEnum genero)
     {
-        Turma_Id = turma;
+        TurmaId = turma;
         Nome = nome;
         DataNascimento = data;
         Media = media;

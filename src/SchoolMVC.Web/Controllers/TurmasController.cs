@@ -47,11 +47,11 @@ public class TurmasController : Controller
 
     public async Task<IActionResult> Update(int id)
     {
-        var turma = _turmasService.GetById(id);
+        var turmaModel = await _turmasService.GetById(id);
 
-        if (turma != null)
+        if (turmaModel != null)
         {
-            return View(turma);
+            return View(turmaModel);
         }
 
         return NotFound();

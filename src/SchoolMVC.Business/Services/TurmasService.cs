@@ -34,15 +34,21 @@ public class TurmasService : ITurmasService
     {
         var turmasEntityList = await _turmaRepository.ListAll();
 
-        List<TurmasModel> turmasModelList = [];
-
-        foreach(var entity in turmasEntityList)
+        if(turmasEntityList != null)
         {
-            var x = new TurmasModel().Map(entity);
+            List<TurmasModel> turmasModelList = [];
 
-            turmasModelList.Add(x);            
+            foreach(var entity in turmasEntityList)
+            {
+                var x = new TurmasModel().Map(entity);
+
+                turmasModelList.Add(x);            
+            }
+
+            return turmasModelList;
         }
-        return turmasModelList;
+
+        return null;
     } 
 
     public async Task<TurmasModel> GetById(int id)
@@ -69,7 +75,7 @@ public class TurmasService : ITurmasService
 
             if(turmaEntity != null)
             {
-                turmaEntity.UpdateSerie(turmaEntity.Serie);
+                turmaEntity.UpdateSerie(turmaModel.Serie);
 
                 await _turmaRepository.Commit();
 
@@ -99,7 +105,6 @@ public class TurmasService : ITurmasService
 
             return false;
         }
-
         
         return false;
     }

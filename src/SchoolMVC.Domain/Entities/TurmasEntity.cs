@@ -3,10 +3,9 @@
 public class TurmasEntity
 {
     public int Id { get; private set; }
-
     public char Serie { get; protected set; }
-
     public decimal Media { get; protected set; }
+    public List<AlunosEntity> Alunos {  get; protected set; }
 
     public TurmasEntity()
     {
@@ -16,7 +15,6 @@ public class TurmasEntity
     public TurmasEntity(char serie)
     {
         Serie = serie;
-
         Media = 0;
     }
 
@@ -25,21 +23,15 @@ public class TurmasEntity
         Serie = serie;
     }
 
-    public decimal CalculaMedia(List<AlunosEntity> alunos)
+    public void CalculaNovaMedia(List<AlunosEntity> alunos)
     {
-
         decimal notaTotal = 0;
 
-        var quantidadeDeAlunosSomados = 0;
-
-           foreach (var aluno in alunos)
-           {
-              notaTotal += aluno.Media;
-
-              quantidadeDeAlunosSomados++;
-           }
+        foreach (var aluno in alunos)
+        {
+            notaTotal += aluno.Media;
+        }
         
-        return notaTotal / quantidadeDeAlunosSomados;
+        Media = notaTotal / alunos.Count();
     }
-
 }

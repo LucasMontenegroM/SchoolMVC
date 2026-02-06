@@ -10,7 +10,7 @@ public interface ITurmaRepository
 
     public Task<TurmasEntity> GetById(int id);
 
-    public void Delete(TurmasEntity turmaEntity)
+    public void Delete(TurmasEntity turmaEntity);
 
     public Task Commit();
 }

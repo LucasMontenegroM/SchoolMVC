@@ -3,7 +3,7 @@
 
 
 @{
-    ViewData["Title"] = "Adicionar Usuário";
+    ViewData["Title"] = "Editar Turma (Série)";
 }
 
 
@@ -15,25 +15,28 @@
 
     </div>
 
-    <form method="post" asp-controller="Turmas" asp-action="Create">
+    <form method="post" asp-controller="Turmas" asp-action="Update">
 
-       <!--Serie--></>
+        <input type="hidden" asp-for="Id" />
+
+        <!--Serie--></>
 
         <div class="mb-3">
             <label for="Serie" class="form-label text-light">Serie da Turma:</label>
-            <select name="Serie" id="Serie">
+            <select name="Serie" id="car-select">
                 <option value="">--Selecione uma Opção--</option>
                 <option value="1">Primeira</option>
                 <option value="2">Segunda</option>
                 <option value="3">Terceira</option>
             </select>
+
         </div>
 
         <!--BOTÃO-->
-
         <div class="d-flex gap-5 mt-5">
-            <button type="submit" class="btn btn-success w-50">Adicionar <i class="bi bi-pen mx-2"></i> </button>
+            <button type="submit" class="btn btn-success w-50">Atualizar <i class="bi bi-pen mx-2"></i> </button>
             <a class="btn btn-primary w-50" asp-controller="Turmas" asp-action="Index">Voltar <i class="bi bi-arrow-return-left" mx-2></i></a>
+
         </div>
 
     </form>

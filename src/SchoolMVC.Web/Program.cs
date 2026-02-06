@@ -11,6 +11,10 @@ builder.Services.AddScoped<ITurmasService, TurmasService>();
 
 builder.Services.AddScoped<ITurmaRepository, TurmaRepository>();
 
+builder.Services.AddScoped<IAlunosService, AlunosService>();
+
+builder.Services.AddScoped<IAlunoRepository, AlunoRepository>();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<SchoolContext>(options =>

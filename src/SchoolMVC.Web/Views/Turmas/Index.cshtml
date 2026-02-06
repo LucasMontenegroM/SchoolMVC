@@ -16,6 +16,9 @@
         <th scope="col">Id</th>
         <th scope="col">Série-Turma</th>
         <th scope="col">Média</th>
+        <th scope="col">Alunos</th>
+        <th scope="col">Editar</th>
+        <th scope="col">Excluir do sistema</th>
     </tr>
 </thead>
 
@@ -26,6 +29,15 @@
         <td>@turma.Id</td>
         <td>@turma.Serie-@turma.Id</td>
         <td>@turma.Media</td>
+        <td>
+            <a class="btn btn-success" asp-controller="Alunos" asp-action="Index" asp-route-id="@turma.Id">Editar</a>
+        </td>
+        <td>
+            <a class="btn btn-warning" asp-controller="Turmas" asp-action="Update" asp-route-id="@turma.Id">Editar</a>
+        </td>
+        <td>
+            <a class="btn btn-danger" asp-controller="Turmas" asp-action="Delete" asp-route-id="@turma.Id">Excluir</a>
+        </td>
     </tr>
 }
 </tbody>
