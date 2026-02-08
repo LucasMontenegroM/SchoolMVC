@@ -64,15 +64,17 @@ public class AlunosController : Controller
         return NotFound();
     }
 
-    [HttpPost]
+    //[HttpPost]
 
-    public async Task<IActionResult> UpdateMedia(int id)
-    {
-        var alunoModel = await _alunosService.GetAluno(id);
+    //public async Task<IActionResult> UpdateMedia(int id)
+    //{
+    //    var alunoModel = await _alunosService.GetAluno(id);
 
-        var turmaModel = await _turmasService.GetById(alunoModel.Turma_Id);
+    //    var turmaModel = await _turmasService.GetById(alunoModel.TurmaId);
 
-        var ableToUpdate = await _alunosService.Update(alunoModel, turmaModel);
-    }
+    //    var ableToUpdate = await _alunosService.UpdateMedia(alunoModel, turmaModel);
+
+    //    return RedirectToAction("Index");
+    //}
 
 }

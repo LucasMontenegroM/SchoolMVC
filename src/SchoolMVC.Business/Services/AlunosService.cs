@@ -8,10 +8,12 @@ namespace SchoolMVC.Business.Services;
 public class AlunosService : IAlunosService
 {
     private readonly IAlunoRepository _alunosRepository;
+    private readonly ITurmaRepository _turmaRepository;
 
-    public AlunosService(IAlunoRepository alunoRepository)
+    public AlunosService(IAlunoRepository alunoRepository, ITurmaRepository turmaRepository)
     {
         _alunosRepository = alunoRepository;
+        _turmaRepository = turmaRepository;
     }
 
     public async Task<List<AlunosModel>> ListAll(int turmaId)
@@ -51,23 +53,32 @@ public class AlunosService : IAlunosService
         return null;
     }
 
-    public async Task<bool> Create(AlunosModel alunoModel, TurmasModel turmaModel)
+    public async Task<bool> Create(AlunosModel alunoModel)
     {
-        if(alunoModel != null)
+        var turmaMedia = await _alunosRepository.ListAll(alunoModel.TurmaId);
+
+        if (alunoModel != null)
         {
             var alunoEntity = new AlunosEntity(
-                alunoModel.Turma_Id,
+                alunoModel.TurmaId,
                 alunoModel.Nome,
                 alunoModel.DataNascimento,
                 alunoModel.Media,
                 alunoModel.Genero
             );
 
+            if (turmaMedia != null)
+            {
+                var turma = new TurmasEntity();
+                turma.CalculaNovaMedia(turma.Alunos);
+            }
+
             
             await _alunosRepository.Commit();
 
             return true;
         }
+
 
         return false;
     }

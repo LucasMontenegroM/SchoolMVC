@@ -2,7 +2,6 @@
 using SchoolMVC.Data.Context;
 using SchoolMVC.Data.Interfaces;
 using SchoolMVC.Domain.Entities;
-using System.Numerics;
 
 namespace SchoolMVC.Data.Repositories;
 

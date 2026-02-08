@@ -1,50 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\",
+  "WorkspaceRootPath": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.web\\views\\turmas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|solutionrelative:src\\schoolmvc.web\\views\\turmas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.web\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|solutionrelative:src\\schoolmvc.web\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FB5C91F-C62D-1F24-2622-EB397359FC3E}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.data\\repositories\\turmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FB5C91F-C62D-1F24-2622-EB397359FC3E}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|solutionrelative:src\\schoolmvc.data\\repositories\\turmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.business\\services\\alunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\services\\alunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.business\\services\\turmasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\services\\turmasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.business\\models\\alunosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\models\\alunosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.web\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|solutionrelative:src\\schoolmvc.web\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.web\\views\\turmas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|solutionrelative:src\\schoolmvc.web\\views\\turmas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.business\\models\\turmasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\models\\turmasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.web\\views\\turmas\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|solutionrelative:src\\schoolmvc.web\\views\\turmas\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.web\\views\\turmas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C8DB7B9-C90C-C7CA-4DEB-2E6878B14338}|src\\SchoolMVC.Web\\SchoolMVC.Web.csproj|solutionrelative:src\\schoolmvc.web\\views\\turmas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.business\\interfaces\\iturmasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\interfaces\\iturmasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FB5C91F-C62D-1F24-2622-EB397359FC3E}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.data\\interfaces\\iturmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FB5C91F-C62D-1F24-2622-EB397359FC3E}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|solutionrelative:src\\schoolmvc.data\\interfaces\\iturmarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20690E8F-CBC6-BEC8-F97A-36D91820F255}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|c:\\users\\prover\\source\\repos\\schoolmvc\\src\\schoolmvc.domain\\entities\\turmasentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20690E8F-CBC6-BEC8-F97A-36D91820F255}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.domain\\entities\\turmasentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20690E8F-CBC6-BEC8-F97A-36D91820F255}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|solutionrelative:src\\schoolmvc.domain\\entities\\turmasentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FB5C91F-C62D-1F24-2622-EB397359FC3E}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.data\\repositories\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FB5C91F-C62D-1F24-2622-EB397359FC3E}|src\\SchoolMVC.Data\\SchoolMVC.Data.csproj|solutionrelative:src\\schoolmvc.data\\repositories\\alunorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.business\\interfaces\\ialunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47222000-45CA-A66A-6998-14A588AEC8EC}|src\\SchoolMVC.Business\\SchoolMVC.Business.csproj|solutionrelative:src\\schoolmvc.business\\interfaces\\ialunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20690E8F-CBC6-BEC8-F97A-36D91820F255}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|c:\\users\\lucas\\source\\repos\\src\\schoolmvc\\src\\schoolmvc.domain\\entities\\alunosentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20690E8F-CBC6-BEC8-F97A-36D91820F255}|src\\SchoolMVC.Domain\\SchoolMVC.Domain.csproj|solutionrelative:src\\schoolmvc.domain\\entities\\alunosentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,154 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TurmasController.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Controllers\\TurmasController.cs",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Web\\Controllers\\TurmasController.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Controllers\\TurmasController.cs",
-              "RelativeToolTip": "src\\SchoolMVC.Web\\Controllers\\TurmasController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AlunosController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Web\\Controllers\\AlunosController.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Web\\Controllers\\AlunosController.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Web\\Controllers\\AlunosController.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Web\\Controllers\\AlunosController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:16:25.496Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TurmasService.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Services\\TurmasService.cs",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Services\\TurmasService.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Services\\TurmasService.cs",
-              "RelativeToolTip": "src\\SchoolMVC.Business\\Services\\TurmasService.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:32:42.752Z",
+              "WhenOpened": "2026-02-08T22:48:02.014Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TurmaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Data\\Repositories\\TurmaRepository.cs",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Data\\Repositories\\TurmaRepository.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Data\\Repositories\\TurmaRepository.cs",
-              "RelativeToolTip": "src\\SchoolMVC.Data\\Repositories\\TurmaRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwAwAAAAAAAAAAAAAAA==",
+              "Title": "AlunosService.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Business\\Services\\AlunosService.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Services\\AlunosService.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Business\\Services\\AlunosService.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Business\\Services\\AlunosService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:50:13.208Z",
+              "WhenOpened": "2026-02-08T22:23:25.394Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TurmasModel.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Models\\TurmasModel.cs",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Models\\TurmasModel.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Models\\TurmasModel.cs",
-              "RelativeToolTip": "src\\SchoolMVC.Business\\Models\\TurmasModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwB4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:44:04.463Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Web\\Views\\Turmas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Index.cshtml",
-              "RelativeToolTip": "src\\SchoolMVC.Web\\Views\\Turmas\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T19:41:09.098Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Web\\Views\\Turmas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Delete.cshtml",
-              "RelativeToolTip": "src\\SchoolMVC.Web\\Views\\Turmas\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T17:44:26.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Update.cshtml",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Web\\Views\\Turmas\\Update.cshtml",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Update.cshtml",
-              "RelativeToolTip": "src\\SchoolMVC.Web\\Views\\Turmas\\Update.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T17:35:31.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Create.cshtml",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Web\\Views\\Turmas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Web\\Views\\Turmas\\Create.cshtml",
-              "RelativeToolTip": "src\\SchoolMVC.Web\\Views\\Turmas\\Create.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T19:49:20.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ITurmasService.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Interfaces\\ITurmasService.cs",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Interfaces\\ITurmasService.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Business\\Interfaces\\ITurmasService.cs",
-              "RelativeToolTip": "src\\SchoolMVC.Business\\Interfaces\\ITurmasService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAApwAsAAAAdAAAAAAAAAA==",
+              "Title": "AlunosEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Domain\\Entities\\AlunosEntity.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Domain\\Entities\\AlunosEntity.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Domain\\Entities\\AlunosEntity.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Domain\\Entities\\AlunosEntity.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA2wBAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T14:05:33.975Z",
+              "WhenOpened": "2026-02-08T22:32:34.398Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ITurmaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Data\\Interfaces\\ITurmaRepository.cs",
-              "RelativeDocumentMoniker": "src\\SchoolMVC.Data\\Interfaces\\ITurmaRepository.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Data\\Interfaces\\ITurmaRepository.cs",
-              "RelativeToolTip": "src\\SchoolMVC.Data\\Interfaces\\ITurmaRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AlunosModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Business\\Models\\AlunosModel.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Models\\AlunosModel.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Business\\Models\\AlunosModel.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Business\\Models\\AlunosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:50:45.313Z",
+              "WhenOpened": "2026-02-08T22:36:15.813Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "TurmasEntity.cs",
-              "DocumentMoniker": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Domain\\Entities\\TurmasEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Domain\\Entities\\TurmasEntity.cs",
               "RelativeDocumentMoniker": "src\\SchoolMVC.Domain\\Entities\\TurmasEntity.cs",
-              "ToolTip": "C:\\Users\\PROVER\\source\\repos\\SchoolMVC\\src\\SchoolMVC.Domain\\Entities\\TurmasEntity.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Domain\\Entities\\TurmasEntity.cs",
               "RelativeToolTip": "src\\SchoolMVC.Domain\\Entities\\TurmasEntity.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T20:23:02.473Z"
+              "WhenOpened": "2026-02-08T23:00:21.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlunoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Data\\Repositories\\AlunoRepository.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Data\\Repositories\\AlunoRepository.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Data\\Repositories\\AlunoRepository.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Data\\Repositories\\AlunoRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T23:03:52.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAlunosService.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Business\\Interfaces\\IAlunosService.cs",
+              "RelativeDocumentMoniker": "src\\SchoolMVC.Business\\Interfaces\\IAlunosService.cs",
+              "ToolTip": "C:\\Users\\Lucas\\source\\repos\\src\\SchoolMVC\\src\\SchoolMVC.Business\\Interfaces\\IAlunosService.cs",
+              "RelativeToolTip": "src\\SchoolMVC.Business\\Interfaces\\IAlunosService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvwgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T22:56:28.757Z",
+              "EditorCaption": ""
             }
           ]
         }
